@@ -34,8 +34,6 @@ public class Dropdown {
 		
 		driver.findElement(By.xpath("//li[text()='Appium']")).click();
 		driver.findElement(By.xpath("//li[text()='PostMan']")).click();
-		//driver.findElement(By.xpath("//li[@data-item-label='Playwright']")).click();
-		//driver.findElement(By.xpath("//span[@class='ui-autocomplete-token-icon ui-icon ui-icon-close']")).click();		
 		
 		//Choose Language
 		driver.findElement(By.id("j_idt87:lang_label")).click();
